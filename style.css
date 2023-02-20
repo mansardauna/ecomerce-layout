@@ -204,6 +204,7 @@ cursor: pointer;
   background-color: rgb(78, 206, 206);
   color: white;
   display: flex;
+  padding: .3rem;
   justify-content: center;
   align-items: center;
   font-weight: 300;
