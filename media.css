@@ -35,6 +35,7 @@ nav .active{
  flex-direction: column;
   background-color: rgb(78, 206, 206);
   opacity: 0.9;
+  z-index: 6;
 }
 #about{
   width: 5rem;
@@ -117,5 +118,14 @@ border-radius: 10px;
   .footer .flex{
     width: 95%;
     padding: 0 1rem ;
+  }
+  .login{
+    width: 95%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+  .logcard{
+    height: 56vh;
+
   }
 }

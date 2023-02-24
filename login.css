@@ -1,0 +1,83 @@
+.login{
+  margin: auto;
+  width: 40%;
+  height: 80vh;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+.logcard{
+  background-color: rgba(243, 237, 237, 0.808);
+  width: 70%;
+height: 70vh;
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  align-items: center;
+  position: relative;
+  box-shadow: 1px 1px 17px -3px grey;
+}
+.user, .pass{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+
+}
+.user span, .pass span{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+  margin: .5rem ;
+  color: rgb(83, 79, 79);
+  
+}
+.user input,.pass input{
+  width: 90%;
+  border: none;
+  height: 1rem;
+  box-shadow: 1px 1px 17px -3px grey;
+  padding: 1rem;
+  border-radius: .5rem;
+
+}
+.user input,.pass input:focus{
+  outline: none;
+}
+.log_btn{
+  width: 30%;
+  margin: 1rem auto;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  padding: 1rem;
+  box-shadow: 1px 1px 17px -3px grey;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(23, 156, 156);
+}
+#rem{
+  font-weight: 300;
+  font-size: 13px;
+}
+.forget{
+  position: absolute;
+  right: 1rem;
+  color: blue;
+  font-weight: 300;
+  font-size: 13px;
+  cursor: pointer;
+}
+.create{
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: rgb(115, 155, 155);
+  box-shadow: 1px 1px 17px -3px grey;
+  padding: .5rem;
+  border-radius: 5px;
+}
