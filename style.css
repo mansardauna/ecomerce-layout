@@ -201,13 +201,15 @@ border: .5px solid  rgb(78, 206, 206); ;
 .footer .flex{
   width: 70%;
   margin: auto;
+
   
 }
 .col-1{
 display: grid;
 grid-template-columns: auto;
 text-align: center;
-cursor: pointer;
+row-gap: .5rem;
+column-gap: .1rem;
 }
 .copy{
   background-color: rgb(78, 206, 206);
